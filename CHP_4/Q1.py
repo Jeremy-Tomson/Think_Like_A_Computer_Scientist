@@ -1,4 +1,5 @@
 # Q1
+
 import turtle
 wn = turtle.Screen()
 wn.bgcolor("lightgreen")
