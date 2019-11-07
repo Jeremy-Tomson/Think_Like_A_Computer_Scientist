@@ -1,0 +1,10 @@
+punctuation = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
+
+def remove_punctuation(s):
+    space = ""
+    for x in s:
+        if x not in punctuation:
+            space = space + x
+    return space
+
+print(remove_punctuation("apple's"))
