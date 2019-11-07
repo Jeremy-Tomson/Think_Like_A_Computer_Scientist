@@ -1,0 +1,7 @@
+sentence = input("ENTER THE SENTECE")
+x = 0
+words = sentence.split()
+for word in words:
+    if len(word) == 5:
+        x += 1
+print(x)
