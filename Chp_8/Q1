@@ -1,0 +1,11 @@
+greeting = "Hello, world!"
+new_greeting = "J" + greeting[1:]
+print(new_greeting)
+
+def remove_vowels(s):
+    vowels = "aeiouAEIOU"
+    s_sans_vowels = ""
+    for x in s: #traces every letter in the given s
+        if x not in vowels: #if the letter isnt in aeiou
+            s_sans_vowels += x #replaces the letter with a blank space + the next letter
+    return s_sans_vowels
