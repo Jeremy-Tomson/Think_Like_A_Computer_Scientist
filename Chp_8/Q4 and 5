@@ -1,0 +1,35 @@
+name = "Alice"
+age = 10
+s2 = "I am {0} and I am {1} years old.".format(name, age)
+print(s2)
+
+print("Strings are sequences of characters."[5])
+print("Mystery"[:4])
+print("p" in "Pineapple")
+print("apple" > "pineapple")
+
+prefixes = "JKLMNP"
+secondary_prefixes = "OQ"
+suffix = "ack"
+secondary_suffix = "uack"
+
+for letter in prefixes:
+    print(letter + suffix)
+for letter in secondary_prefixes:
+    print(letter + secondary_suffix)
+
+def reverse(word):
+    return word[::-1]
+
+def mirror(word):
+    return word + word[::-1]
+
+
+def count_letters(word):
+    counter = 0
+    for char in word:
+        if char == "s":
+            counter = counter + 1
+    return counter
+
+print(count_letters("Massachusetts"))
