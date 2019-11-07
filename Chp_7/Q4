@@ -1,0 +1,9 @@
+num = [1,1,1,1,1,2]
+x = 0
+while True:
+    for i in range(len(num)):
+        if num[i] %2 != 0:
+            x = x + num[i]
+        elif num[i] %2 == 0:
+            break
+print(x)
