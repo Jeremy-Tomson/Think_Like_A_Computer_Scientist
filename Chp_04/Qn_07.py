@@ -1,4 +1,5 @@
 #Q7
+
 def sum_to(n):
     s = ((n(n + 1)) / 2)
     return s
