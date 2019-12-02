@@ -1,3 +1,0 @@
-# Q14
-
-# A bale, nest, turn and a dole...
