@@ -1,0 +1,9 @@
+mynewhandle = open("test.txt", "r")
+while True:                            
+    theline = mynewhandle.readline()   
+    if len(theline) == 0:              
+        break                          
+    # Now process the line we've just read
+    print(theline, end="")
+
+mynewhandle.close()
